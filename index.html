@@ -1,167 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mehtab - B.Tech ECE student portfolio">
-  <title>Mehtab | ECE Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mehtab - B.Tech ECE Student Portfolio">
+    <title>Mehtab | ECE Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="nav">
-    <a class="logo" href="#home">Mehtab<span>.</span></a>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#achievements">Achievements</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">Mehtab<span>.</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home -->
     <section id="home" class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">B.Tech • Electronics & Communication Engineering</p>
-        <h1>Hi, I'm <span>Mehtab</span>.</h1>
-        <h2>ECE Student • Project Builder • Cybersecurity Enthusiast</h2>
-        <p class="intro">
-          I am a B.Tech ECE student at Lendi College, interested in electronics,
-          programming, cybersecurity and practical technology projects.
-          I enjoy learning new skills and turning ideas into useful prototypes.
-        </p>
-        <div class="buttons">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="#contact">Contact Me</a>
+        <div class="hero-content">
+            <p class="small-title">HELLO, I'M</p>
+
+            <h1>Mehtab</h1>
+
+            <h2>B.Tech ECE Student</h2>
+
+            <p>
+                I am an Electronics and Communication Engineering student
+                interested in technology, programming and real-world projects.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
         </div>
-      </div>
-      <div class="hero-card">
-        <div class="avatar">M</div>
-        <p>Electronics & Communication Engineering</p>
-        <small>Open to learning • projects • opportunities</small>
-      </div>
     </section>
 
+    <!-- About -->
     <section id="about" class="section">
-      <p class="eyebrow">ABOUT ME</p>
-      <h2>Building skills through practical projects.</h2>
-      <div class="about-grid">
-        <div>
-          <p>
-            I am currently pursuing B.Tech in Electronics & Communication Engineering
-            at Lendi College. My interests include embedded systems, communication
-            engineering, cybersecurity, programming and real-world problem solving.
-          </p>
-          <p>
-            I am continuously improving my communication and technical skills through
-            coursework, projects, presentations and hands-on learning.
-          </p>
+        <h2>About Me</h2>
+
+        <div class="about-box">
+            <p>
+                Hello! I am Mehtab, a B.Tech student in Electronics and
+                Communication Engineering at Lendi College.
+            </p>
+
+            <p>
+                I enjoy learning programming, electronics, communication
+                systems and new technologies. I like building practical
+                projects that can solve real-world problems.
+            </p>
+
+            <p>
+                I am continuously improving my technical skills as well as
+                my English communication and problem-solving abilities.
+            </p>
         </div>
-        <div class="info-card">
-          <div><strong>Education</strong><span>B.Tech – ECE</span></div>
-          <div><strong>College</strong><span>Lendi College</span></div>
-          <div><strong>Focus</strong><span>ECE • Embedded • Cybersecurity</span></div>
-          <div><strong>Learning</strong><span>C • SQL • Cloud • DSA</span></div>
-        </div>
-      </div>
     </section>
 
-    <section id="skills" class="section alt">
-      <p class="eyebrow">SKILLS</p>
-      <h2>My technical toolkit</h2>
-      <div class="cards">
-        <article class="card"><h3>C Programming</h3><p>Building programming fundamentals and problem-solving skills.</p></article>
-        <article class="card"><h3>Cybersecurity</h3><p>Learning security concepts, networks and practical cybersecurity.</p></article>
-        <article class="card"><h3>SQL</h3><p>Learning databases, queries and data management fundamentals.</p></article>
-        <article class="card"><h3>Electronics</h3><p>Communication systems, embedded systems and electronics concepts.</p></article>
-        <article class="card"><h3>Communication</h3><p>Working on English, presentation and interview communication skills.</p></article>
-        <article class="card"><h3>Project Development</h3><p>Designing low-cost prototypes for practical real-world problems.</p></article>
-      </div>
+    <!-- Education -->
+    <section class="section">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>B.Tech - Electronics & Communication Engineering</h3>
+            <p>Lendi College</p>
+            <p>Currently Pursuing</p>
+        </div>
     </section>
 
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill">C Programming</div>
+            <div class="skill">Java</div>
+            <div class="skill">SQL</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Electronics</div>
+            <div class="skill">Communication Systems</div>
+            <div class="skill">Problem Solving</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
     <section id="projects" class="section">
-      <p class="eyebrow">PROJECTS</p>
-      <h2>Selected projects</h2>
-      <div class="project-grid">
-        <article class="project">
-          <span class="tag">ECE • AI • Hardware</span>
-          <h3>Smart Mining Guardian</h3>
-          <p>
-            AI-powered safety concept for mine vehicles operating in fog or low visibility.
-            The system is designed to detect obstacles/vehicles and provide warnings or
-            automatic safety actions.
-          </p>
-          <div class="tech">Sensors • Embedded Systems • AI • Wireless Communication</div>
-        </article>
-        <article class="project">
-          <span class="tag">Environmental • IoT</span>
-          <h3>AI Environmental Hazard Detection Network</h3>
-          <p>
-            A practical monitoring concept designed to detect environmental hazards and
-            provide timely alerts using connected sensing nodes.
-          </p>
-          <div class="tech">Sensors • Embedded Systems • IoT • Alerting</div>
-        </article>
-        <article class="project">
-          <span class="tag">Web • Portfolio</span>
-          <h3>Personal Portfolio Website</h3>
-          <p>
-            A responsive personal portfolio built with HTML, CSS and JavaScript and
-            published using GitHub Pages.
-          </p>
-          <div class="tech">HTML • CSS • JavaScript • GitHub Pages</div>
-        </article>
-      </div>
+        <h2>My Projects</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Smart Mining Guardian</h3>
+
+                <p>
+                    An AI-powered safety system designed to improve the
+                    safety of mine vehicles in fog and low-visibility
+                    conditions by detecting obstacles and providing warnings.
+                </p>
+
+                <span>Hardware Project</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Smart Environmental Monitoring</h3>
+
+                <p>
+                    A concept for monitoring environmental hazards using
+                    sensors and an intelligent alert system.
+                </p>
+
+                <span>ECE Project</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    My personal portfolio website created using HTML and CSS
+                    and hosted using GitHub Pages.
+                </p>
+
+                <span>Web Development</span>
+            </div>
+
+        </div>
     </section>
 
-    <section id="achievements" class="section alt">
-      <p class="eyebrow">ACHIEVEMENTS</p>
-      <h2>Milestones I'm proud of</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span>01</span>
-          <div><h3>1st Prize – Project PPT Presentation</h3><p>Recognized for presenting a project through a technical PPT presentation.</p></div>
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+        <h2>Achievements</h2>
+
+        <div class="achievement-list">
+
+            <div class="achievement">
+                🏆 1st Prize in Project PPT Presentation
+            </div>
+
+            <div class="achievement">
+                🥈 2nd Prize in Diploma Project Presentation
+            </div>
+
+            <div class="achievement">
+                📜 Received certificates for multiple projects
+            </div>
+
         </div>
-        <div class="timeline-item">
-          <span>02</span>
-          <div><h3>2nd Prize – Diploma Project Presentation</h3><p>Received recognition for a diploma project presentation.</p></div>
-        </div>
-        <div class="timeline-item">
-          <span>03</span>
-          <div><h3>Project Certificates</h3><p>Completed and received certificates for multiple project activities.</p></div>
-        </div>
-      </div>
     </section>
 
+    <!-- Certificates -->
     <section id="certificates" class="section">
-      <p class="eyebrow">CERTIFICATES</p>
-      <h2>My certificates</h2>
-      <p class="muted">Add your certificate images or PDFs inside <b>assets/certificates</b> and link them here.</p>
-      <div class="certificate-placeholder">
-        <div class="certificate-icon">+</div>
-        <h3>Certificates coming soon</h3>
-        <p>Upload your certificates and we can add them to this section.</p>
-      </div>
+        <h2>Certificates</h2>
+
+        <div class="certificate-box">
+            <p>
+                My certificates will be added here.
+            </p>
+
+            <p>
+                Project certificates, technical certificates and
+                achievements can be displayed in this section.
+            </p>
+        </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="section contact">
-      <p class="eyebrow">CONTACT</p>
-      <h2>Let's connect.</h2>
-      <p>If you'd like to discuss a project, internship, learning opportunity or collaboration, feel free to reach out.</p>
-      <div class="contact-buttons">
-        <a class="btn primary" href="mailto:YOUR_EMAIL@example.com">Email Me</a>
-        <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-      <p class="small">Replace the email and social links with your real links before publishing.</p>
+        <h2>Contact Me</h2>
+
+        <p>
+            I am open to learning opportunities, projects and collaborations.
+        </p>
+
+        <div class="contact-info">
+            <p>📧 Email: Add your email here</p>
+            <p>💻 GitHub: Add your GitHub profile here</p>
+            <p>🔗 LinkedIn: Add your LinkedIn profile here</p>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>© <span id="year"></span> Mehtab. Built with HTML, CSS & JavaScript.</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Mehtab. All Rights Reserved.</p>
+    </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
